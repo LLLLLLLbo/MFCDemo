@@ -235,7 +235,7 @@ BOOL CMFCDemoDlg::OnInitDialog()
 	m_Sobelcont.AddString(_T("7"));
 	m_Sobelcont.AddString(_T("9"));
 
-	// 111
+	
 
 	//阈值编辑框只读
 	((CEdit*)GetDlgItem(IDC_EDIT_LOWTHRESHOLD))->SetReadOnly(TRUE);
